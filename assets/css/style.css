@@ -358,11 +358,11 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #5d5d5d;
+	background: #2B2E31;
 }
 
 #footerwrap p {
-	color: #bfc9d3;
+	color: #bfbdb0;
 }
 
 #footerwrap h4 {
@@ -371,12 +371,12 @@ a:focus {
 
 #footerwrap i {
 	font-size: 30px;
-	color: #bfc9d3;
+	color: #bfbdb0;
 	padding-right: 25px;
 }
 
 #footerwrap i:hover {
-	color: #F3B026
+	color: #fff
 }
 
 /*	################################################################
