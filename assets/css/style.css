@@ -101,6 +101,11 @@ a:focus {
 	color: #bfbdb0;
 }
 
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: #bfbdb0;
 	font-weight: 700;
@@ -231,9 +236,6 @@ a:focus {
 
 #headerwrap .img-responsive {
 	margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
 
 /* Services Wrap */
