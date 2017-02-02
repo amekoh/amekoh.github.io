@@ -231,6 +231,9 @@ a:focus {
 
 #headerwrap .img-responsive {
 	margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Services Wrap */
