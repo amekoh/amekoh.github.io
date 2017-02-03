@@ -95,11 +95,23 @@
       <div class="container mtb">
 	 	<div class="row">
             <div class="col-lg-5">
-                <h4>Notes on Ordering:</h4>
-                <p>&#8226; &nbsp; We recommend placing an order with us as early as possible – preferably a week ahead. If you’re unsure when is the specific date, do provide us with the week that you want to place an order.</p>
+                <h4>Notes upon Ordering:</h4>
+                <p>&#8226; &nbsp; We recommend placing an order with us as early as possible – preferably <b>a week ahead</b>. If you’re unsure when is the specific date, do provide us with the week that you want to place an order.</p>
+                <p>&#8226; &nbsp; For cupcakes, minimum order is <b>half dozen.</b> Available in multiples of 6.</p>
+                <p>&#8226; &nbsp; No flavour restrictions - <b>All</b> flavours are available to order.</p>                
+                <p>&#8226; &nbsp; <b>Full deposit is required</b> to proceed with a booking and secure the date.</p>
+                <p>&#8226; &nbsp; All orders will only be confirmed upon payment. Payment is to be made 7 days prior to the collection date, if not deemed as cancelled.</p>
+                <p>&#8226; &nbsp; We recommend that you choose your event date carefully as the deposit is non-refundable once paid. We will however do our best to accommodate a date change if changed prior to 7 days of the original order collection date.</p>
+                <p>&#8226; &nbsp; <u>Collection Method(s)</u><br>
+                    Self-collection at <b>Pasir Ris – Complimentary</b><br>
+                    Delivery (MRT stations) – Starting from $5 onwards<br>
+                    <i>Delivery charges are solely to cover our transportation fee.<br>
+                    Other locations will be subjected to availability.<br>
+                    *Do state your preferred pick-up point. <br>
+<!--                Other locations will be counted from the nearest complimentary self-collection point.-->
+                    </i></p>
                 <p>&#8226; &nbsp; More details will be sent to you via email.
                 <div class="hline"></div><br>
-                 </p>
                 <p></p>
 		 	</div>
             <div class="col-lg-7">
@@ -112,34 +124,38 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Contact Number</label>
-                            <input type="text" name="contactno" class="form-control" id="exampleInputNumber" placeholder="Mobile Number">
+                            <input type="text" name="contactno" class="form-control" id="exampleInputNumber" placeholder="E.g. 81234567">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email</label>
-                            <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" placeholder="E.g. url@email.com">
+                        </div>
+                        <div class="form-group">  
+                            <label for="exampleInputName">Date &amp; Time of collection (subjected to availability)</label>
+                            <input type="text" name="datetime" class="form-control" id="exampleInputDate" placeholder="11 February, 3pm">
+                        </div>
+                        <div class="form-group">  
+                            <label for="exampleInputName">Self-collection / Delivery (subjected to availability)</label>
+                            <input type="text" name="collection" class="form-control" id="exampleInputName2" placeholder="Self Collection / Delivery">
+                        </div>
+                        <div class="form-group">  
+                            <label for="exampleInputName">Delivery venue (if applicable)</label>
+                            <input type="text" name="mrt" class="form-control" id="exampleInputName2" placeholder="E.g. MRT station">
                         </div>
                         <div class="form-group">  
                             <label for="exampleInputName">Promotion (if any)</label>
                             <input type="text" name="promotion" class="form-control" id="exampleInputName2" placeholder="E.g. You're my batter half"></div>
                         <div class="form-group">  
-                            <label for="exampleInputName">Number of boxes of 6 or 12</label>
+                            <label for="exampleInputName">Number of boxes (Sold in multiples of 6)</label>
                             <input type="text" name="boxqty" class="form-control" id="exampleInputNumber2" placeholder="E.g. 1 box of 6">
                         </div>
-                        <div class="form-group">  
-                            <label for="exampleInputName">Date &amp; Time of collection (subjected to availability)</label>
-                            <input type="text" name="datetime" class="form-control" id="exampleInputDate" placeholder="11 February 2017 3pm">
-                        </div>
-                        <div class="form-group">  
-                            <label for="exampleInputName">Collection venue (subjected to availability)</label>
-                            <input type="text" name="collection" class="form-control" id="exampleInputName2" placeholder="Self Collection / Delivery">
-                        </div>
                         <div class="form-group">
-                            <label for="exampleTextArea">Cupcake Flavours</label>
-                            <textarea name="flavoursqty" class="form-control" rows="3" placeholder="1 Oreo Choco, 2 Matcha Lava, 3 Salted Karamel"></textarea>
+                            <label for="exampleTextArea">Specific no. of cupcakes per flavour</label>
+                            <textarea name="flavoursqty" class="form-control" rows="3" placeholder="E.g. 1 Oreo Choco, 2 Matcha Lava, 3 Salted Karamel"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="exampleTextArea">Special requests</label>
-                            <textarea name="packaging" class="form-control" rows="2" placeholder="Packaging, etc"></textarea>
+                            <textarea name="packaging" class="form-control" rows="2" placeholder="E.g. Packaging, etc"></textarea>
                         </div>
                         <input type="hidden" name="_subject" value="New Order from Website" />
                         <button type="submit" class="btn btn-theme">Submit</button>
