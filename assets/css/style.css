@@ -394,6 +394,20 @@ a:focus {
 	margin-left: 15px;
 }
 
+#flea {
+	background: url(../img/order_1280x300.jpg) no-repeat center top;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#flea h3 {
+	color: white;
+	margin-left: 15px;
+}
+
+
 .ctitle {
 	color: #F3B026;
 	font-weight: 700;
