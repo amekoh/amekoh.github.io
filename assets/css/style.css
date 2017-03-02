@@ -351,6 +351,18 @@ a:focus {
 	margin-bottom: 40px;
 }
 
+/* fleawrap */
+#fwrap {
+	background: #fffbef;
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#fwrap h3 {
+	margin-bottom: 40px;
+}
+
 /* Footer */
 #footerwrap {
 	padding-top: 60px;
